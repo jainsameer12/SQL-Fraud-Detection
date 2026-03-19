@@ -26,4 +26,40 @@ This project detects fraudulent transaction patterns using SQL-based feature eng
 - Flagged high-risk users
 
 ## ▶️ How to Run
-(steps)
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/YOUR_USERNAME/SQL-Fraud-Detection.git
+cd SQL-Fraud-Detection
+```
+
+### 2. Create virtual environment (optional but recommended)
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the project
+
+#### Option A: Run Jupyter Notebook
+```bash
+jupyter notebook
+```
+Open the notebook from the `notebooks/` folder.
+
+#### Option B: Run Python scripts
+```bash
+python scripts/main.py
+```
+
+### 5. SQL Setup (if required)
+- Import dataset into MySQL / PostgreSQL
+- Execute SQL queries from the `sql/` folder
+
+## 📌 Note
+Dataset is not included due to size limitations. You can use your own dataset or generate synthetic data for testing.
